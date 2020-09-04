@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - 14.8.0
-cache:
-  - yarn
+  - "14.8.0"
+cache: yarn
 install:
   - yarn install
 script:
