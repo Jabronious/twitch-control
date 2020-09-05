@@ -9,3 +9,5 @@ script:
   - yarn run build
 deploy:
   provider: azure_web_apps
+  edge: true
+  verbose: true
