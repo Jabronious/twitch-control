@@ -11,5 +11,3 @@ deploy:
   provider: azure_web_apps
   edge: true
   verbose: true
-after_deploy:
-  - yarn run start:prod
